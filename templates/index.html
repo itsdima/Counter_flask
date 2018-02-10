@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Counter</title>
+	</head>
+	<body style="text-align: center;">
+		<h1 style="margin-top: 50px;">Counter</h1>
+		<p>Viewed {{ times }} times.</p>
+		<form action="/zero" method="post">
+			<button>Reset Counter to 0</button>
+		</form>
+		<form action="/add2" method="post">
+			<button>Add counter by 2</button>
+		</form>
+	</body>
+</html>
